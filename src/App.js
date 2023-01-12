@@ -9,6 +9,7 @@ import ProductDetailInfo from "./components/ProductDetailInfo.js";
 import ProductDetailNutrition from "./components/ProductDetailNutrition.js";
 import ProductDetailStorage from "./components/ProductDetailStorage.js";
 import Cart from "./components/Cart.js";
+import NotFound from "./components/NotFound.js";
 
 function App() {
   const [cart, setCart] = useState(function () {
@@ -105,6 +106,7 @@ function App() {
             <Route path="storage" element={<ProductDetailStorage />}></Route>
           </Route>
           <Route path="/cart" element={<Cart cart={cart} />}></Route>
+          <Route path='*' element={<NotFound />}> </Route>
         </Routes>
       </div>
     </BrowserRouter>
