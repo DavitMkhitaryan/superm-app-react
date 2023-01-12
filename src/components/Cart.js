@@ -106,7 +106,7 @@ export default function Cart({ cart }) {
               />
               <Button type="submit">Pay</Button>
             </form>
-            {stripeFailed && <p>Stripe Payment Failed. Developer may have forgotten to replace the stripe key with his own publishable key 😄</p>}
+            {stripeFailed && <p>Stripe payment not available ❌ Please try again later. </p>}
           </>
         )}
       </div>

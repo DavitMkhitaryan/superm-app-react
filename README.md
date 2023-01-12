@@ -2,6 +2,9 @@
 
 This app is a final project developed from scratch with https://react-tutorial.app course.
 
+Please note: Although Stripe payment is integrated in the code, it won't work as Stripe is not availabe in my country and no API key is provided in the code.
+So you will keep seeing stripe not availabe message in checkout 😄
+
 Get started by running `npm install` and then `npm run start`
 
 ---
